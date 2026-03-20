@@ -6,12 +6,31 @@
     padding: 0;
     box-sizing:border-box;
 }
- 
 :root{
     --bg:#f5f5f5;
-    --text:#00ff44;
-}
+    --text:#1a1a1a; 
+    --sidebar-w: 220px;
+    --sidebar-icons: 64px;
+    --sidebar-bg:#ffffff;
+    --siderbar-line: rgba(0, 0, 0, 0.15);
+    --muted:#4cdb6b;
 
-.main-content{
-    color:var(--text)
+}
+body{
+    font-family: Poppins;
+    background-color: var(--bg);
+    color: var(--text)
+}
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 56px;
+    background-color: var(--sidebar-bg);
+    border-bottom: 1px solid var(--siderbar-line);
+
+}
+.sidebar{
+
 }
